@@ -66,7 +66,7 @@ func (m *Model) renderViewSwitcher(ctx context.ProgramContext) string {
 		issuesStyle = activeView
 	}
 
-	prs := prsStyle.Render("PRs]")
+	prs := prsStyle.Render("[PRs]")
 	issues := issuesStyle.Render("[Issues]")
 	return viewSwitcher.Copy().
 		Render(lipgloss.JoinHorizontal(lipgloss.Top, prs, issues))
