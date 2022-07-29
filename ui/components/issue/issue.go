@@ -65,9 +65,9 @@ func (issue *Issue) renderAssignees() string {
 
 func (issue *Issue) renderStatus() string {
 	if issue.Data.State == "OPEN" {
-		return lipgloss.NewStyle().Foreground(OpenIssue).Render("")
+		return lipgloss.NewStyle().Foreground(OpenIssue).Render("●")
 	} else {
-		return lipgloss.NewStyle().Foreground(OpenIssue).Render("")
+		return lipgloss.NewStyle().Foreground(OpenIssue).Render("●")
 	}
 }
 

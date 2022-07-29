@@ -21,5 +21,5 @@ func (ctx *ProgramContext) GetViewSectionsConfig() []config.SectionConfig {
 		configs = ctx.Config.IssuesSections
 	}
 
-	return append([]config.SectionConfig{{Title: ""}}, configs...)
+	return append([]config.SectionConfig{{Title: "🐙"}}, configs...)
 }

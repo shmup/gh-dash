@@ -6,8 +6,8 @@ import (
 )
 
 var (
-	OpenIssue   = lipgloss.AdaptiveColor{Light: "#42A0FA", Dark: "#42A0FA"}
-	ClosedIssue = lipgloss.AdaptiveColor{Light: "#C38080", Dark: "#C38080"}
+	OpenIssue   = lipgloss.AdaptiveColor{Light: "#42A0FA", Dark: "#7FFF00"}
+	ClosedIssue = lipgloss.AdaptiveColor{Light: "#C38080", Dark: "#FF0000"}
 
 	titleText = lipgloss.NewStyle().Foreground(styles.DefaultTheme.PrimaryText)
 )

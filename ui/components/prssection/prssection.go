@@ -91,11 +91,12 @@ func (m Model) Update(msg tea.Msg) (section.Section, tea.Cmd) {
 func GetSectionColumns() []table.Column {
 	return []table.Column{
 		{
-			Title: "",
+                        // Updated
+			Title: "⏰",
 			Width: &updatedAtCellWidth,
 		},
 		{
-			Title: "",
+			Title: "Repo",
 			Width: &prRepoCellWidth,
 		},
 		{
@@ -118,7 +119,7 @@ func GetSectionColumns() []table.Column {
 			Width: &ciCellWidth,
 		},
 		{
-			Title: "",
+			Title: "🔢",
 			Width: &linesCellWidth,
 		},
 	}
